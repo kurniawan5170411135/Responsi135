@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Account"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/enama"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="NAMA"
+            android:textColor="#FD0A0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/epass2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enama"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="PASSWORD"
+            android:textColor="#FD0A0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/enim"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/epass2"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="NIM"
+            android:textColor="#0E0D0D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ekelas"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enim"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="KELAS"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/namaa"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/a"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/enama"
+            android:textColor="#F80E0D0D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/passe"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaa"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/epass2"
+            android:textColor="#FA0A0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nime"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passe"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/enim"
+            android:textColor="#FA0A0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/kelase"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nime"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/ekelas"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kelase"
+            android:text="Back Login" />
+</RelativeLayout>
